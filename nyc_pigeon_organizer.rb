@@ -14,6 +14,10 @@ def nyc_pigeon_organizer(data)
         optionhash.each do |options, names|
           if names.include?(name)
             attributes[attribute] << options.to_s
+          end 
+        end 
+    end 
+  end 
 end
 
 data = {
